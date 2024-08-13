@@ -4,9 +4,9 @@
 4. [Go to the profile page](http://challenge01.root-me.org/web-client/ch22/index.php?action=profile)
 5. Make the checkbox visible through the developer tool
 
-It was: ```<input type="checkbox" name="status" disabled="">```
+	It was: ```<input type="checkbox" name="status" disabled="">```
 
-Become: ```<input type="checkbox" name="status">```
+	Become: ```<input type="checkbox" name="status">```
 
 6. Launch **Burp Suite::Proxy::HTTP history**
 7. Click the **Submit** button and check the request data
