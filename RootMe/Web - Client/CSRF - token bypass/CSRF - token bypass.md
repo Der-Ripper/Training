@@ -1,7 +1,7 @@
-1. [Open the task](http://challenge01.root-me.org/web-client/ch22/index.php)
-2. [Register an account](http://challenge01.root-me.org/web-client/ch22/index.php?action=register)
-3. [Log in to your account](http://challenge01.root-me.org/web-client/ch22/index.php?action=login)
-4. [Go to the profile page](http://challenge01.root-me.org/web-client/ch22/index.php?action=profile)
+1. [Open the task](http://challenge01.root-me.org/web-client/ch23/index.php)
+2. [Register an account](http://challenge01.root-me.org/web-client/ch23/index.php?action=register)
+3. [Log in to your account](http://challenge01.root-me.org/web-client/ch23/index.php?action=login)
+4. [Go to the profile page](http://challenge01.root-me.org/web-client/ch23/index.php?action=profile)
 5. Make the checkbox visible through the developer tool
 
 	It was: ```<input type="checkbox" name="status" disabled="">```
@@ -10,7 +10,7 @@
 
 6. Launch **Burp Suite::Proxy::HTTP history**
 7. Click the **Submit** button and check the request data
-8. [Go to the Contact tab](http://challenge01.root-me.org/web-client/ch22/index.php?action=contact)
+8. [Go to the Contact tab](http://challenge01.root-me.org/web-client/ch23/index.php?action=contact)
 9. Enter in the **email** field: **_"username"_** + **_"@mail"_**
 10. Enter the following into the **Comment** form:
 
@@ -34,4 +34,4 @@ document.csrf.submit();
 
 >Your message has been posted. The administrator will contact you later.
 
-12. [Checking the Private tab](http://challenge01.root-me.org/web-client/ch22/index.php?action=private), you can get a **flag**
+12. [Checking the Private tab](http://challenge01.root-me.org/web-client/ch23/index.php?action=private), you can get a **flag**
