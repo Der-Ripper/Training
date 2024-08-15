@@ -3,7 +3,7 @@
 
 **POST request to http://challenge01.root-me.org:59088/api/signup**
 
-# Request body:
+### Request body:
 ```
 {
 	"username": "YOUR_USERNAME",
@@ -16,7 +16,7 @@
 
 **POST request to http://challenge01.root-me.org:59088/api/login**
 
-# Request body:
+### Request body:
 ```
 {
 	"username": "YOUR_USERNAME",
@@ -29,7 +29,7 @@
 
 **GET request to http://challenge01.root-me.org:59088/api/user**
 
-# Response body:
+### Response body:
 ```
 {
 	"note": "",
@@ -42,7 +42,7 @@
 
 **GET request to http://challenge01.root-me.org:59088/api/user/1**
 
-# Response body:
+### Response body:
 ```
 {
 	"note": "THE FLAG WILL BE HERE",
